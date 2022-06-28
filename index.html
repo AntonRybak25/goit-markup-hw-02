@@ -4,26 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <!--Header section-->
-    <header>
-      <a href=""> <span>Web</span>Studio </a>
-      <ul>
-        <li><a href="#">Студия</a></li>
-        <li><a href="#">Портфолио</a></li>
-        <li><a href="#">Контакты</a></li>
+    <header class="page-header">
+      <a href=""> <span class="logo">Web</span>Studio </a>
+      <ul class="site-nav">
+        <li><a href="#" class="studio">Студия</a></li>
+        <li><a href="#" class="portfolio">Портфолио</a></li>
+        <li><a href="#" class="contacts">Контакты</a></li>
       </ul>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="ul-contacts">
+        <li>
+          <a href="mailto:info@devstudio.com" class="mailto-contacts"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="tel-contacts">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!--Main section-->
     <main>
       <section>
-        <h1>
+        <h1 class="title">
           ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
           ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
@@ -32,29 +39,29 @@
       <section>
         <ul>
           <li>
-            <h2>Внимание к деталям</h2>
-            <p>
+            <h2 class="title-details">Внимание к деталям</h2>
+            <p class="text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h2>Пунктуальность</h2>
-            <p>
+            <h2 class="title-punctuality">Пунктуальность</h2>
+            <p class="text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h2>Планирование</h2>
-            <p>
+            <h2 class="title-planning">Планирование</h2>
+            <p class="text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h2>Современные технологии</h2>
-            <p>
+            <h2 class="title-technologis">Современные технологии</h2>
+            <p class="text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -62,48 +69,48 @@
         </ul>
       </section>
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="title-doing">Чем мы занимаемся</h2>
         <ul>
-          <li><img src="./images/1.jpg" alt="images mean" /></li>
-          <li><img src="./images/2.jpg" alt="images mean" /></li>
-          <li><img src="./images/3.jpg" alt="images mean" /></li>
+          <li><img src="./images/1.jpg" class="images" alt="images mean" /></li>
+          <li><img src="./images/2.jpg" class="images" alt="images mean" /></li>
+          <li><img src="./images/3.jpg" class="images" alt="images mean" /></li>
         </ul>
       </section>
-      <section>
-        <h2>НАША КОМАНДА</h2>
-        <ul>
+      <section class="section-team">
+        <h2 class="title-team">НАША КОМАНДА</h2>
+        <ul class="ul-team">
           <li>
-            <img src="./images/Игорь.jpg" alt="images mean" />
-            <h3>Игорь Демьяненко <br />Product Designer</h3>
+            <img src="./images/Игорь.jpg" class="img-team" alt="images mean" />
+            <h3 class="title-teams">Игорь Демьяненко <br />Product Designer</h3>
+          </li>
+          class=""
+          <li>
+            <img src="images/Ольга.jpg" class="img-team" alt="images mean" />
+            <h3 class="title-teams">Ольга Репина <br />Frontend Developer</h3>
           </li>
           <li>
-            <img src="images/Ольга.jpg" alt="images mean" />
-            <h3>
-              Ольга Репина <br />
-              Frontend Developer
-            </h3>
+            <img src="images/Николай.jpg" class="img-team" alt="images mean" />
+            <h3 class="title-teams">Николай Тарасов <br />Marketing</h3>
           </li>
           <li>
-            <img src="images/Николай.jpg" alt="images mean" />
-            <h3>Николай Тарасов <br />Marketing</h3>
-          </li>
-          <li>
-            <img src="images/Михаил.jpg" alt="images mean" />
-            <h3>Михаил Ермаков <br />UI Designer</h3>
+            <img src="images/Михаил.jpg" class="img-team" alt="images mean" />
+            <h3 class="title-teams">Михаил Ермаков <br />UI Designer</h3>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer section -->
     <footer class="footer">
-      <a href=""> <span>Web</span>Studio </a>
+      <a href=""> <span class="logo">Web</span>Studio </a>
       <ul>
         <li>г. Киев, пр-т Леси Украинки, 26</li>
         <li>
-          <a href="mailto:info@example.com">info@example.com</a>
+          <a href="mailto:info@example.com" class="mailto-footer"
+            >info@example.com</a
+          >
         </li>
         <li>
-          <a href="tel:380991111111">+38 099 111 11 11</a>
+          <a href="tel:380991111111" class="tel-footer">+38 099 111 11 11</a>
         </li>
       </ul>
     </footer>
