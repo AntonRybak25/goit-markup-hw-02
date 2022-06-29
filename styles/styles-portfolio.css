@@ -1,0 +1,62 @@
+/* Header*/
+.page-header .logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: black;
+  margin-right: 95px;
+}
+.page-header .logo span {
+  color: #2196f3;
+}
+.page-header .site-nav li {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: black;
+}
+.page-header .ul-contacts li {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.page-header .ul-contacts li a:hover {
+  color: #2196f3;
+}
+.button .all {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.button .design,
+.program,
+.marketing,
+.web {
+  background-color: #f5f4fa;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
