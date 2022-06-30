@@ -1,3 +1,6 @@
+.container {
+  max-width: 1600px;
+}
 /* Header*/
 .page-header .logo {
   font-family: "Raleway", sans-serif;
@@ -22,6 +25,7 @@
   letter-spacing: 0.02em;
   color: black;
 }
+
 .page-header .ul-contacts li {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -31,9 +35,10 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-.page-header .ul-contacts li a:hover {
+.page-header .container li a:hover {
   color: #2196f3;
 }
+
 /*Main section*/
 .section-button .title {
   font-family: "Roboto", sans-serif;

@@ -1,3 +1,6 @@
+.container {
+  max-width: 1600px;
+}
 /* Header*/
 .page-header .logo {
   font-family: "Raleway", sans-serif;
@@ -31,9 +34,10 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-.page-header .ul-contacts li a:hover {
+.page-header .container li a:hover {
   color: #2196f3;
 }
+/*Main*/
 .button .all {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -45,7 +49,6 @@
   color: #ffffff;
   background-color: #2196f3;
 }
-
 .button .design,
 .program,
 .marketing,
@@ -59,4 +62,63 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.button .poster .title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+/*Footer*/
+.footer .logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer .logo span {
+  color: #2196f3;
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer .address {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer .mailto-footer {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .tel-footer {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .logo,
+.address,
+.mailto-footer,
+.tel-footer {
+  text-decoration: none;
 }
