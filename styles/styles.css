@@ -40,6 +40,13 @@
 }
 
 /*Main section*/
+.section-button {
+  width: 1600px;
+  height: 600px;
+}
+.section-button {
+  background-color: #2f303a;
+}
 .section-button .title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
